@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doro Pizza's"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:textSize="30sp"
+        android:fontFamily="@font/open_sans_bold"
+        android:textColor="@color/colorAccent">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/image_home"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_toRightOf="@id/heading"
+        android:layout_marginTop="-2sp"
+        android:src="@mipmap/pizza_home_foreground">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_below="@+id/image_home"
+        android:layout_marginTop="30dp"/>
+
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Password"
+
+        android:layout_marginTop="50dp"
+        android:inputType="textPassword"
+
+        android:layout_below="@+id/username"/>
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/repassword"/>
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Existing user! Go to Sign in page"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/btnsignup"/>
+    <Button
+        android:id="@+id/ownerSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restrurant Owner Login"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/btnsignin"/>
+
+</RelativeLayout>

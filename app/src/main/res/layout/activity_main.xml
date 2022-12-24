@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doro Pizza's"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="20sp"
+        android:textSize="50sp"
+        android:fontFamily="@font/open_sans_bold"
+        android:textColor="@color/colorAccent"
+        ></TextView>
+    <TextView
+        android:id="@+id/heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Table"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:layout_marginBottom="20sp"
+        android:textSize="40sp"
+        android:fontFamily="@font/open_sans_bold"
+        android:textColor="@color/colorPrimary"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/image_home"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_below="@id/heading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="63dp"
+        android:src="@mipmap/restaurant"></ImageView>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="337dp"
+        android:layout_height="122dp"
+        android:layout_below="@id/image_home"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-97dp"
+        android:layout_marginEnd="27dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:padding="30sp"
+        android:text="You can Booked maximum 5 Table(one table can occupy 4 person)"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"></TextView>
+
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content"
+        android:id="@+id/inputtable"
+        android:inputType="number"
+        android:hint="Enter table here"
+        android:layout_centerHorizontal="true"
+        ></EditText>
+    <Button
+        android:id="@+id/onbooked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:layout_below="@+id/inputtable"
+        android:layout_centerHorizontal="true"
+        android:text="Order food"
+        android:background="@color/black"
+        android:padding="10sp"
+        android:textColor="@color/white"
+        ></Button>
+</RelativeLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/head"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Please select Number of table required"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
+
+<!--    <RadioGroup-->
+<!--        android:id="@+id/radio"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/head"-->
+
+<!--        >-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/table1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="1"-->
+<!--            />-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/table2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="2"-->
+<!--            />-->
+<!--        />-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/table3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="3"-->
+<!--            />-->
+<!--        />-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/table4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="4"-->
+<!--            />-->
+<!--        />-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/table5"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="5"-->
+<!--            />     />-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/table6"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="6"-->
+<!--            />     />-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/table7"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="7"-->
+<!--            />-->
+
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/table8"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="8"-->
+<!--            />-->
+<!--    </RadioGroup>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/radio"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="7dp"-->
+<!--        android:text="Submit" />-->
+<!--</RelativeLayout>-->

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doro Pizza's"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:textSize="30sp"
+        android:fontFamily="@font/open_sans_bold"
+        android:textColor="@color/colorAccent">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/image_home"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_toRightOf="@id/heading"
+        android:layout_marginTop="-2sp"
+        android:src="@mipmap/pizza_home_foreground">
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_home"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="28dp"
+        android:text="Owner Sign in"
+        android:textSize="22dp"
+
+        />
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/owner"
+        android:hint="Name"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="50dp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/username1"/>
+
+    <Button
+        android:id="@+id/btnsignin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/password1"/>
+</RelativeLayout>
