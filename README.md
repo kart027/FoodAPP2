@@ -10,6 +10,6 @@ Only 40% of the total amount and time of arrival must be provided by the client.
 Firebase authentication for both User and Restaurant. 
 
 ### Contributers:
-Twinshu Parmar https://github.com/twi05 <br>
+Kartik Gamot https://github.com/kart027<br>
 Vinit Kumbhare https://github.com/vinitGithub099<br>
-Kartik Gamot https://github.com/kart027
+Twinshu Parmar https://github.com/twi05
